@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abyan Wardhana | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans">
+
+    <nav class="fixed w-full bg-white/80 backdrop-blur-md z-50 shadow-sm">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-xl font-bold tracking-tighter text-blue-600">ABYAN.DEV</span>
+            <div class="space-x-8 hidden md:flex font-medium">
+                <a href="#home" class="hover:text-blue-600 transition">Home</a>
+                <a href="#about" class="hover:text-blue-600 transition">About</a>
+                <a href="#projects" class="hover:text-blue-600 transition">Projects</a>
+                <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="pt-32 pb-20 px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-2/3">
+                <h2 class="text-blue-600 font-semibold mb-2">Halo semua, saya</h2>
+                <h1 class="text-5xl md:text-7xl font-bold mb-4">Abyan Wardhana</h1>
+                <p class="text-xl text-slate-600 mb-8 max-w-lg">
+                    Mahasiswa Teknik Komputer yang berfokus pada <span class="text-blue-600 font-medium">IoT, Programming</span>, dan pemberdayaan diri melalui <span class="text-blue-600 font-medium">Public Speaking</span>.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="#projects" class="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition">Lihat Proyek</a>
+                    <a href="#contact" class="border border-blue-600 text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-blue-50 transition">Kontak Saya</a>
+                </div>
+            </div>
+            <div class="md:w-1/3 mt-12 md:mt-0">
+                <div class="w-64 h-64 md:w-80 md:h-80 bg-blue-100 rounded-2xl rotate-3 border-4 border-white shadow-xl overflow-hidden mx-auto">
+                    <img src="https://via.placeholder.com/400" alt="Abyan Wardhana" class="w-full h-full object-cover -rotate-3 hover:rotate-0 transition duration-500">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-white px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 text-center underline decoration-blue-500 decoration-4 underline-offset-8">Tentang Saya</h2>
+            <div class="grid md:grid-cols-2 gap-12 text-lg leading-relaxed">
+                <p>
+                    Saat ini saya sedang menempuh pendidikan di jurusan <strong>Teknik Komputer</strong>. Saya memiliki ketertarikan besar dalam membangun solusi cerdas yang menggabungkan perangkat keras dan perangkat lunak untuk memecahkan masalah nyata.
+                </p>
+                <p>
+                    Selain dunia teknis, saya adalah pendiri <strong>Abyandev Academy</strong>, sebuah wadah untuk membantu anak muda menguasai <em>Public Speaking</em> dan meningkatkan kepercayaan diri. Bagi saya, teknologi dan komunikasi adalah kunci dampak sosial.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12">Proyek Terpilih</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition group">
+                    <div class="bg-blue-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4 group-hover:bg-blue-600 group-hover:text-white transition">
+                        <i class="fas fa-droplet text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Smart-AQUALIN</h3>
+                    <p class="text-slate-600 mb-4 text-sm">Sistem biofilter berbasis IoT untuk mengurangi polusi limbah rumah tangga. Mengintegrasikan sensor air dengan monitoring real-time.</p>
+                    <span class="text-xs font-bold text-blue-500 bg-blue-50 px-3 py-1 rounded-full italic">IoT & Environment</span>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition group">
+                    <div class="bg-orange-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4 group-hover:bg-orange-500 group-hover:text-white transition">
+                        <i class="fas fa-microphone-alt text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Abyandev Academy</h3>
+                    <p class="text-slate-600 mb-4 text-sm">Lembaga pelatihan public speaking. Mengelola kurikulum "Find Your Impact" untuk membantu ribuan reseller dan pelajar.</p>
+                    <span class="text-xs font-bold text-orange-500 bg-orange-50 px-3 py-1 rounded-full italic">Education & Leadership</span>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition group">
+                    <div class="bg-purple-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4 group-hover:bg-purple-600 group-hover:text-white transition">
+                        <i class="fas fa-hand-pointer text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">AI Antigravity Particles</h3>
+                    <p class="text-slate-600 mb-4 text-sm">Eksperimen interaktif menggunakan MediaPipe dan Web Speech API untuk menggerakkan partikel lewat gerakan tangan.</p>
+                    <span class="text-xs font-bold text-purple-500 bg-purple-50 px-3 py-1 rounded-full italic">Artificial Intelligence</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-slate-900 text-white px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">Keahlian Teknis</h2>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-1"><span>Python & C++</span><span>85%</span></div>
+                            <div class="w-full bg-slate-700 h-2 rounded-full"><div class="bg-blue-500 h-2 rounded-full w-[85%]"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1"><span>IoT Architecture</span><span>80%</span></div>
+                            <div class="w-full bg-slate-700 h-2 rounded-full"><div class="bg-blue-500 h-2 rounded-full w-[80%]"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1"><span>Frontend Dev (HTML/CSS)</span><span>75%</span></div>
+                            <div class="w-full bg-slate-700 h-2 rounded-full"><div class="bg-blue-500 h-2 rounded-full w-[75%]"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center justify-center">
+                    <div class="text-center p-8 border border-slate-700 rounded-3xl">
+                        <h3 class="text-xl mb-4 italic text-slate-400">"The best way to predict the future is to invent it."</h3>
+                        <p class="font-bold text-blue-400">— Abyan Wardhana</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Mari Berkolaborasi!</h2>
+            <p class="text-slate-600 mb-10 text-lg">Tertarik untuk diskusi proyek IoT atau kolaborasi training public speaking? Saya sangat terbuka untuk itu.</p>
+            <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-6">
+                <a href="mailto:emailmu@domain.com" class="flex items-center justify-center px-6 py-4 bg-white border shadow-sm rounded-xl hover:bg-slate-50 transition">
+                    <i class="fas fa-envelope mr-3 text-blue-600"></i>
+                    Email Saya
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="flex items-center justify-center px-6 py-4 bg-white border shadow-sm rounded-xl hover:bg-slate-50 transition">
+                    <i class="fab fa-linkedin mr-3 text-blue-600"></i>
+                    LinkedIn
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 border-t text-center text-slate-500 text-sm">
+        <p>&copy; 2026 Abyan Wardhana. Dibuat dengan semangat & Vercel.</p>
+    </footer>
+
+</body>
+</html>
